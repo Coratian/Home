@@ -1,0 +1,165 @@
+/*the body*/
+body
+	{
+		background-color: white;
+		font-family: "NTR", Helvetica, sans-serif;
+		font-size: 20px;
+		color: black;
+	}
+
+
+/*the table*/
+table
+	{
+		width: 100%;
+		background-color: white;
+		font-family: Crushed, Charcoal, sans-serif; 
+		font-size: 70px;
+		text-align: center;
+		padding: 0;
+		float: left;
+	}
+
+
+/*table for aboutMe page*/
+table2
+	{
+		background-color:gray;
+		font-family: "NTR", Helvetica, sans-serif;
+		font-size: 20px;
+		color: black;
+		text-align: centre;
+	}
+	
+	
+/*the image*/
+img
+	{
+		margin: 0px;
+		padding: 0px;
+		text-align: centre;
+	}
+	
+/*give borders*/
+.pics
+	{
+		margin: 0%;
+		padding: 5px;
+		border: 5px solid #555
+	}
+
+
+/*fonts*/
+h1
+	{
+		font-family: 'Metrophobic', "Lucida Grande", sans-serif;
+		font-size: 35px;
+		color: black;
+	}
+
+h2
+	{
+		font-family: 'Metrophobic', "Lucida Grande", sans-serif;
+		font-size: 30px;
+		text-align: center;
+		color: black;
+	}
+
+h4
+	{
+		font-family: 'NTR', Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+		color: black;
+		vertical-align: top;
+	}
+	
+p
+	{
+		font-family: "NTR", Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+		color: black;
+	}
+
+#referenceTitle
+	{
+		font-family: Crushed, Charcoal, sans-serif; 
+		font-size: 70px;
+		text-align: center;
+		color: black;
+	}
+
+/*placing texts over the img*/
+/* build a container that holds the img and text*/
+.container
+	{
+		position: relative;
+		text-align: center;
+		color: white;
+		margin : 0px;
+		padding: 0px
+	}
+
+
+/* different positions of the texts*/
+.centered
+	{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: Crushed, Charcoal, sans-serif; 
+		font-size: 85px;
+	}
+
+.centered_lower
+	{
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: 'Monofett', Gadget, sans-serif;
+		font-size: 40px;
+	}
+
+.bottom_right
+	{
+		position: absolute;
+		top: 93%;
+		left: 75%;
+		transform: translate(-50%, -50%);
+		font-family: 'NTR', Helvetica, sans-serif;
+		font-size: 24px;
+	}
+
+
+/*menu table*/
+.menutable
+	{
+	border-spacing:0px;
+	margin : 0px ;
+	}
+
+.menucell
+	{
+	background-color:#708090;
+	border:1px solid black;
+	color: white;
+	font-family:Metrophobic, Courier, monospace;
+	font-size:22px;
+	text-align: center;
+	width: 10px;
+	margin: 0px;
+	}
+	
+.contentcell	
+	{	
+	vertical-align: top;
+	background-color:white;
+	height:200px;
+	padding: 0;
+	}
+	
+
+	
